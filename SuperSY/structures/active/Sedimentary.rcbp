@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "biomes": "$PLAINS",
+      "weight": 0.4
+    },
+    {
+      "biomes": "$SWAMP",
+      "weight": 0.4
+    },
+    {
+      "biomes": "$SANDY",
+      "weight": 0.65
+    },
+    {
+      "biomes": "$SAVANNA",
+      "weight": 0.65
+    },
+    {
+      "biomes": "$MESA",
+      "weight": 0.9
+    },
+    {
+      "biomes": "",
+      "weight": 0.1
+    }
+  ],
+  "metadata": {
+    "title": "Sedimentary",
+    "description": [
+      ""
+    ]
+  }
+}

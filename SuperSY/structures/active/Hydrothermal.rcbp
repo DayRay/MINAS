@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "biomes": "$FOREST",
+      "weight": 0.1
+    },
+    {
+      "biomes": "$MOUNTAIN",
+      "weight": 0.4
+    },
+    {
+      "biomes": "$HILLS",
+      "weight": 0.25
+    },
+    {
+      "biomes": "$JUNGLE",
+      "weight": 0.1
+    }
+  ],
+  "metadata": {
+    "title": "Hydrothermal",
+    "description": [
+      ""
+    ]
+  }
+}

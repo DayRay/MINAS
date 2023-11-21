@@ -1,0 +1,13 @@
+{
+	"zombie": {
+		"id": "minecraft:zombie",
+		"effects": [
+			{
+				"id": "minecraft:speed",
+				"duration": 2400,
+				"amplifier": 1,
+				"showParticles": false
+			}
+		]
+	}
+}

@@ -1,0 +1,267 @@
+{
+	"images": {
+		"title": {
+			"image": "supersymmetry:mainmenu/banner.png",
+			"posX": -980,
+			"posY": -5,
+			"width": 1960,
+			"height": 85,
+			"alignment": "top_center"
+		},
+		"frame": {
+			"image": "supersymmetry:mainmenu/frame.png",
+			"posX": -152,
+			"posY": -27,
+			"width": 304,
+			"height": 104,
+			"alignment": "center"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"alignment": "center",
+			"posX": -150,
+			"posY": -25,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"texture": "supersymmetry:mainmenu/button.png",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"alignment": "center",
+			"posX": -150,
+			"posY": -5,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "fml.menu.mods",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 15,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"tooltip": "§a#modsactive#§r/§e#modsloaded#§7 mods loaded.§r",
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"options": {
+			"text": "Options",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 35,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"hoverText": "You can never escape Greg.",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 55,
+			"width": 300,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 11141120,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "quit"
+			}
+		},
+		"language": {
+			"text": "",
+			"posX": -175,
+			"posY": 55,
+			"alignment": "center",
+			"width": 20,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"discord": {
+			"text": "Discord Server",
+			"alignment": "center",
+			"posX": 0,
+			"posY": -25,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openLink",
+				"link": "https://discord.gg/BNbbK98rh6"
+			}
+		},
+		"github": {
+			"text": "Report A Bug",
+			"alignment": "center",
+			"posX": 0,
+			"posY": -5,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/Zalgo239/Supersymmetry/issues"
+			}
+		},
+		"open_folder": {
+			"text": "Open MC Folder",
+			"alignment": "center",
+			"posX": 0,
+			"posY": 15,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"action": {
+				"type": "openFolder",
+				"folderName": "/"
+			}
+		},
+		"refresh": {
+			"text": "Refresh Menu",
+			"alignment": "center",
+			"posX": 0,
+			"posY": 35,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "refresh"
+			}
+		},
+		"language": {
+			"text": "",
+			"posX": -25,
+			"posY": -25,
+			"alignment": "bottom_right",
+			"width": 20,
+			"height": 20,
+			"texture": "supersymmetry:mainmenu/button_language.png",
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"replaymod": {
+			"text": "Replay Viewer",
+			"posX": -115,
+			"posY": -25,
+			"alignment": "bottom_right",
+			"width": 85,
+			"height": 20,
+			"texture": "supersymmetry:mainmenu/button_bordered.png",
+			"wrappedButton": 17890234
+		}
+	},
+	"labels": {
+		"minecraft_version": {
+			"text": "Minecraft #mcversion#",
+			"hoverText": "Minecraft Coder Pack #mcpversion#",
+			"color": -1,
+			"posX": 2,
+			"posY": -32,
+			"alignment": "bottom_left"
+		},
+		"modinfo": {
+			"alignment": "bottom_left",
+			"text": "Forge Version: #forgeversion# | #modsactive# mods active out of #modsloaded#",
+			"hoverText": "FML Version: #fmlversion# | #modsactive# mods active out of #modsloaded#",
+			"color": -1,
+			"posX": 2,
+			"posY": -12
+		},
+		"credits": {
+			"text": "Copyright Mojang AB. Do not distribute!",
+			"color": -1,
+			"alignment": "bottom_left",
+			"posX": 198,
+			"posY": -22,
+			"anchor": "end",
+			"hoverText": "Click here to see the Minecraft credits",
+			"action": {
+				"type": "openGui",
+				"gui": "credits"
+			}
+		}
+	},
+	"other": {
+		"splash-text": {
+			"posX": 105,
+			"posY": 105,
+			"color": -256,
+			"alignment": "top_center",
+			"texts": "file:supersymmetry:mainmenu/splashes.txt"
+		},
+		"background": {
+			"image": "",
+			"mode": "fill",
+			"slideshow": {
+				"images": [
+					"supersymmetry:backgrounds/01.png",
+					"supersymmetry:backgrounds/02.png",
+					"supersymmetry:backgrounds/03.png",
+					"supersymmetry:backgrounds/04.png",
+					"supersymmetry:backgrounds/05.png",
+					"supersymmetry:backgrounds/06.png"
+				],
+				"shuffle": true,
+				"displayDuration": 100,
+				"fadeDuration": 40,
+				"sync": true
+			}
+		}
+	}
+}
